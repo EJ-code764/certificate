@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+ hr {
+    height: 2px;
+    background-color: black;
+    border-color: black;
+ }
+
+.top-line {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.container {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px 100px 100px 100px ;
+    width: 700px;
+    text-align: justify;
+    text-justify: inter-word;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.certificate {
+    margin-top: 30px;
+}
+
+.header {
+    display: inline-flex;
+    padding: 16px 0;
+    align-items:flex-start;
+    justify-content:center;
+}
+
+.header-logo{
+    width: 100px;
+}
+
+img {
+    width: 155px;
+}
+
+.header-text {
+    font-family: Cambria;
+    font-size: 25px;
+    line-height: 1.5;
+    overflow: hidden;
+}
+
+.hereby {
+    font-family: 'Times New Roman';
+    font-style: italic;
+}
+
+p, h1, h2, h3{
+    text-align: center;
+}
+
+.section {
+    font-family: 'Baskerville Old Face';
+}
+
+.section, .hereby {
+    margin-bottom: 30px;
+}
+
+.title {
+    font-size: 50px;
+    font-style: italic;
+}
+
+.to {
+    font-style: italic;
+}
+
+.name {
+    font-family: 'Adobe Garamond Pro Bold';
+    font-size: 35px;
+}
+
+.training-title {
+    font-size: 35px;
+    font-style: italic;
+}
+
+.instructor {
+    font-weight: 550;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.qr {
+    width: 100px;
+    margin-left: 70px;
+}
+
+.footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.contact {
+    width: 300px;
+}
+
+.not-valid {
+    font-family: 'Calibri';
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .form {
+       margin: 20px;
+    }
+}
